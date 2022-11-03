@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to left top, blue, red);
+    background-attachment: fixed;
+}
+
+
+.wrapper {
+    padding-top: 10%;
+    border-color: solid white 2px;
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 100;
+    font-size: 6em;
+    text-transform: uppercase;
+}
+
+#seconds,
+#tens {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+button {
+    border: solid 1px white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.3em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+}
+#button-start,
+#button-stop,
+#button-reset {
+    font-family: 'Roboto', sans-serif;
+}
